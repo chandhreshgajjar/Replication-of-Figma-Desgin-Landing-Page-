@@ -1,0 +1,1075 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width : 100px;
+        margin: 0 auto;
+    }
+    }
+    
+    @media (min-width: 576px) {
+    .container {
+        max-width : 540px;
+        margin: 0 auto;
+    }
+    }
+    
+    @media (min-width: 768px) {
+    .container {
+        max-width : 720px;
+        margin: 0 auto;
+    }
+    }
+    
+    @media (min-width: 992px) {
+    .container {
+        max-width : 960px;
+        margin: 0 auto;
+    }
+    }
+        
+    @media (min-width: 1200px) {
+    .container {
+        max-width : 1140px;
+        margin: 0 auto;
+    }
+    }
+
+@font-face {
+    font-family: "Barlow";
+    src: url('fonts/Barlow-Regular.ttf');
+}
+
+@font-face{
+    font-family: Modern;
+    src: url('fonts/ModernAntiqua-Regular.ttf');
+}
+
+.navigation{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.logo{
+    width: 50%;
+}
+
+.nav-bar{
+    width: 50%;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    font-family: "Barlow";
+}
+
+.nav-bar li{
+    padding: 0px 15px;
+}
+
+.gradient-btn{
+    background-image: linear-gradient(#F99E74, #E584B6);
+    padding: 4px 20px;
+    border: none;
+    color: white;
+    font-family: "Barlow";
+    font-size: 13px;
+}
+
+.gradient-btn:hover{
+    cursor: pointer;
+}
+
+.banner-image{
+    width: 100%;
+    background-image: url("images/banner-img.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-btn{
+    color: #FFD4C9;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border: none;
+    margin: 20px;
+    font-family: 'Barlow';
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding-top: 34px;
+}
+
+.sub-content{
+    width: 50%;
+    margin: 0px auto;
+}
+
+@media only screen and (max-width: 425px){
+    .sub-content{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.sub-content h2{
+    margin: 20px;
+    font-family: "Barlow";
+    font-size: 30px;
+}
+
+.sub-content p{
+    margin: 20px;
+    font-family: "Modern";
+    font-size: 12px;
+}
+
+.sub-content img{
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+}
+
+.custom-icon{
+    margin: 25px;
+}
+
+.heading p{
+    font-family: "Modern";
+    text-align: center;
+    font-size: 20px;
+}
+
+.icon-container{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.icon-bg:nth-child(odd){
+    background-image: url("images/icon-odd.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-bg:nth-child(even){
+    background-image: url("images/icon-even.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-bg{
+    width: 20%;
+    text-align: center;
+    padding: 15px 10px;
+    transition: ease-in-out;
+}
+
+.icon-bg:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 425px){
+    .icon-bg{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .icon-container{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        vertical-align: middle;
+        align-items: stretch;
+    }
+}
+
+.icon-bg h4{
+    font-family: "Barlow";
+    padding-top: 12px;
+}
+
+.icon-bg p{
+    font-family: "Modern";
+    font-size: 11px;
+    padding-top: 15px;
+}
+
+.main-teacher{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.sub-teacher{
+    width: 60%;
+    align-self: start;
+}
+
+.sub-teacher-image{
+    width: 40%;
+    text-align: center;
+}
+
+.sub-teacher h3{
+    font-family: 'Barlow';
+    font-size: 44px;
+    text-transform: uppercase;
+    margin: 25px 0px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 425px){
+    .sub-teacher{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .sub-teacher h3{
+        margin: 0px auto;
+    }
+
+    .sub-teacher-image{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.sub-teacher-image img{
+    width: 90%;
+    border: 1px solid grey;
+    padding: 6px;
+    border-top-left-radius: 155px;;
+}
+
+.teacher-sub-heading{
+    font-family: "Modern";
+    font-size: 24px;
+    font-style: italic;
+    margin: 15px 0px;
+}
+
+.teacher-content{
+    font-family: "Modern";
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.help-background{
+    width: 100%;
+    background-image: url("images/help-bg.png");
+    background-size: cover;
+    background-position: center;
+    margin: 40px 0px;
+}
+
+.help-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Barlow';
+    font-size: 20px;
+    padding: 25px 0px;
+}
+
+.custom-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin: 20px 0px;
+}
+
+.cards{
+    width: 30%;
+    background-color: #F8F7F6;
+    display: flex;
+    margin: 10px;
+    margin: 10px;
+    padding: 15px 3px;
+    box-shadow: 10px 10px 5px #cccaca; 
+}
+
+.single-custom-card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    box-shadow: black;
+    padding-bottom: 10px;
+}
+
+.single-card{
+    width: 50%;
+    background-color: #F8F7F6;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin: 10px;
+    margin: 10px;
+    padding: 15px 3px;
+    box-shadow: 10px 10px 5px #cccaca; 
+    margin: 20px 0px;
+}
+
+.cards, .single-card p{
+    font-family: "Modern";
+    font-size: 12.5px;
+    line-height: 18px;
+}
+
+@media only screen and (max-width: 425px){
+    .single-card{
+        width: 90%;
+    }
+    .cards{
+        width: 100%;
+    }
+}
+
+.sister-heading{
+    text-align: center;
+    font-family: "Barlow";
+}
+
+.sub-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    vertical-align: middle;
+    list-style: none;
+    list-style-image: url("images/list-icon-smaller.png");
+    margin-top: 15px;
+}
+
+.sub-list li{
+    font-family: "Modern";
+    font-size: 15px;
+}
+
+.list-content{
+    width: 50%;
+}
+
+@media only screen and (max-width:425px){
+    .list-content{
+        width: 100%;
+    }
+}
+
+.img-txt-cards{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    vertical-align: middle;
+}
+
+.custom-img-cards{
+    width: 32%;
+    border: 2px solid black;
+    margin: 7px;
+    padding-bottom: 15px;
+}
+
+.custom-img-cards img{
+    max-width: 100%;
+    width: auto;
+    height: 256px;
+    display: block;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 425px){
+    .custom-img-cards{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 425px){
+    .custom-img-cards img{
+        height: 290px;
+    }
+}
+
+.custom-img-cards p{
+    background-image: url("images/img-txt-bg.png");
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: "Modern";
+    text-align: center;
+    padding: 7px;
+}
+
+.sister-button{
+    margin: 25px 0px;
+    text-align: center;
+}
+
+.blck-wite-btn{
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Barlow';
+}
+
+.teacher-vannesa{
+    background-image: url("images/Untitled design.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vannesa-content{
+    padding: 40px 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.vannesa-sub-content{
+    width: 50%;
+}
+
+
+.vannesa-sub-content img{
+    max-width: 70%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+    border-top-right-radius: 172px;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.vannesa-sub-content h3{
+    font-size: 30px;
+    font-family: "Barlow";
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.vannesa-sub-content p{
+    font-size: 15px;
+    font-family: "Modern";
+    padding-bottom: 15px;
+    line-height: 18px;
+}
+
+.vannesa-sub-content .blck-wite-btn{
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    font-family: 'Barlow';
+    text-align: center;
+}
+
+@media only screen and (max-width: 425px){
+    .vannesa-sub-content{
+        width: 100%;
+    }
+    .vannesa-sub-content{
+        text-align: center;
+    }    
+}
+
+.member-head h3{
+    padding: 40px 0px;
+    text-transform: uppercase;
+    font-family: "Barlow";
+    font-size: 30px;
+    text-align: center;
+}
+
+.membership-back-ground{
+    background-image: url("images/member-bg-img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.member-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    vertical-align: middle;
+}
+
+.member-sub-cards{
+    background-image: url("images/member-card-img.png");
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    vertical-align: middle;
+    margin: 7px;
+    padding: 18px;
+}
+
+.member-sub-cards p{
+    width: 90%;
+    font-family: "Modern";
+    font-size: 14px;
+}
+
+.member-sub-cards img{
+    width: 16px;
+    height: 16px;
+    padding-right: 3px; 
+}
+
+.end-txt{
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+
+.end-txt h3{
+    text-align: center;
+    font-family: "Modern";
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 425px){
+    .vannesa-sub-content{
+        width: 100%;
+    }
+    .vannesa-sub-content{
+        text-align: center;
+    }   
+    .member-sub-cards{
+        width: 100%;
+        margin: 10px;
+    } 
+}
+
+.inner-mem-bg{
+    background-image: url("images/inner-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.inner-mem-content{
+    text-align: center;
+    color: white;
+}
+
+.inner-mem-content h2{
+    font-family: "Barlow";
+    padding: 20px;
+}
+
+.inner-mem-content p{
+    font-family: "Modern";
+    padding: 20px;
+}
+
+.inner-mem-content button{
+    margin: 25px;
+}
+
+.inner-mem-bg .gradient-btn{
+    background-image: linear-gradient(#F99E74, #E584B6);
+    padding: 6px 20px;
+    border: none;
+    color: white;
+    font-family: "Barlow";
+    font-size: 15px;
+}
+
+.inner-mem-bg .gradient-btn:hover{
+    cursor: pointer;
+}
+
+.glance-head{
+    margin: 25px;
+    font-family: "Barlow";
+    text-align: center;
+    font-size: 25px;
+}
+
+.glace-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    vertical-align: middle;
+}
+
+.glace-sub-cards{
+    width: 23%;
+    background-image: url('images/glance-card-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    text-align: center;
+}
+
+.glace-sub-cards p{
+    font-family: "Modern";
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.glace-sub-cards img{
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+@media only screen and (max-width: 425px){
+    .glace-sub-cards{
+        width: 100%;
+    }
+}
+
+.join-bg-img{
+    background-image: url("images/price-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.price-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    vertical-align: middle;
+}
+
+.price-sub-cards{
+    width: 23%;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    padding: 25px;
+}
+
+.join-bg-img .container .glance-head{
+    padding-top:25px; 
+    text-transform:uppercase
+}
+
+.price-head{
+    color:#E54C68;
+    padding-bottom: 5px;
+    font-family: "Barlow";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.price-mem{
+    font-family: "Modern";
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.price{
+    font-family: "Barlow";
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.duration{
+    font-family: "Barlow";
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.bill{
+    font-family: "Barlow";
+    font-size: 14px;
+    font-weight: 200;
+    padding-bottom: 15px;
+}
+
+.adv-list{
+    list-style-type: none;
+    list-style-image: url("images/price-list-icon-smaller.png");
+    font-size: 15px;
+    font-family: "Barlow";
+    padding-bottom: 15px;
+    line-height: 21px;
+}
+
+.price-sub-cards .blck-wite-btn{
+    padding: 7px 25px;
+    font-size: 11px;
+    width: 100%;
+}
+
+.join-bg-img .end-txt h3{
+    font-family:'Barlow';
+}
+
+@media only screen and (max-width: 425px){
+    .price-sub-cards{
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .join-bg-img .end-txt h3{
+        padding-bottom: 30px;
+    }
+}
+
+.free-class{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    vertical-align: middle;
+    margin: 40px 0px;
+}
+
+.free-sub-class{
+    width: 50%;
+}
+
+@media only screen and (max-width: 425px){
+    .free-sub-class{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+.free-sub-class h2{
+    text-transform: uppercase;
+    font-family: "Barlow";
+    font-size: 25px;
+    padding: 15px 20px;
+}
+
+.free-class-sub-heading{
+    font-family: "Modern";
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+.free-sub-class p{
+    font-family: "Modern";
+    font-size: 13.5px;
+    padding: 12px 20px;
+}
+
+.free-sub-class img{
+    max-width: 65%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+    border-top-left-radius: 160px;
+}
+
+.free-sub-class .blck-wite-btn{
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+.news-bg{
+    background-image: url("images/news-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.news-content{
+    padding: 50px;
+    text-align: center;
+}
+
+.news-content h2{
+    color: white;
+    font-family: "Barlow";
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.news-content p{
+    color: white;
+    font-family: "Modern";
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.new-sub-heading{
+    color: white;
+    font-family: "Modern";
+    font-size: 12px;
+    text-align: center;
+}
+
+::placeholder{
+    color: white;
+    font-family: "Modern";
+}
+
+.news-form{
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    border: 1px solid white;
+    padding: 12px 5px;
+    width: 25%;
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+
+.news-form:focus{
+    border: 1px solid white;
+}
+
+.news-button{
+    background-image: linear-gradient(#F99E74, #E584B6);
+    color: white;
+    border: 1px solid white;
+    padding: 12px 5px;
+    width: 12.5%; 
+    font-family: "Barlow";
+    margin: 0px auto;
+}
+
+@media only screen and (max-width: 425px){
+    .news-form{
+        width: 65%;
+    }
+    .news-button{
+        width: 35%;
+        padding: 12px 2px;
+    }
+}
+
+
+.mem{
+    background-image: url("images/mem-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.mem-heading{
+    background-image: url("images/mem-head-bg.png");
+    margin: 15px 0px;
+    padding: 10px 0px;
+    font-family: "Barlow";
+    font-weight: 500;
+    text-align: center;
+}
+
+.mem-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    vertical-align: middle;
+}
+
+.mem-sub-content{
+    width: 20%;
+}
+
+.mem-sub-content img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    position: relative;
+    bottom: 64px;
+    right: 28px;
+}
+
+.mem-sub-info{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.mem-sub-txt{
+    background-color: white;
+    border: 1px solid pink;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 17px;
+}
+
+.mem-sub-txt p{
+    padding-left: 7px;
+}
+
+.mem-sub-list{
+    width: 100%;
+    grid-column: 1 / span 2;
+    background-color: white;
+    border: 1px solid pink;
+    padding: 17px;
+}
+
+.mem-list-content{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.mem-list-content p{
+    padding-left: 7px;
+}
+
+.mem-list-items{
+    width: 100%;
+    padding: 10px 33px;
+}
+
+li::marker{
+    color: #F3A784;
+}
+
+.mem-list-items ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    vertical-align: middle;
+    font-family: "Barlow";
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.mem-list-items ul li{
+    width: 33%;
+}
+
+.mem-end-txt{
+    padding: 5px 250px;
+}
+
+.mem-end-txt h3{
+    font-family: "Barlow";
+    font-size: 20px;
+    padding: 12px 0px;
+}
+
+.mem-end-txt p{
+    font-family: "Modern";
+    font-size: 12px;
+    padding: 0px 0px 20px 0px;
+}
+
+@media only screen and (max-width: 425px){
+    .mem-sub-content{
+        width: 0%;
+    }
+    .mem-sub-content img{
+        display: none;
+    }
+    .mem-sub-info{
+        width: 100%;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        padding: 0px 10px;
+    }
+    .mem-sub-txt{
+        grid-column: 1 / 2 span;
+    }
+    .mem-end-txt{
+        padding: 5px 10px;
+        text-align: center;
+    }
+    .mem-list-items ul li{
+        width: 100%;
+    }
+}
+
+
+.animate-text{{ forloop.index }} font.text-in{{ forloop.index }}{
+	display: block;
+	/* animation: textIn .5s ease; */ /*Original fade in time*/
+    animation: textIn 3.5s ease;
+}
+.animate-text{{ forloop.index }} font.text-out{{ forloop.index }}{
+	animation: textOut 4s ease;
+}
+@keyframes textIn{{ forloop.index }}{
+	0%{
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+@keyframes textOut{{ forloop.index }}{
+	0%{
+		transform: translateY(0%);
+	}
+	100%{
+		transform: translateY(-100%);
+
+	}
+}
